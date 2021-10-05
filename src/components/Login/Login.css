@@ -1,0 +1,121 @@
+
+
+.input_Container{
+	line-height: 4;	
+
+}
+
+.form_contain{
+    display: grid;
+    grid-auto-flow: column;	
+    grid-auto-columns: 40% auto;
+    position: relative;
+    text-align: center;
+	overflow: hidden;
+    align-content: center;
+    margin: 0 auto;
+	top: 4rem;
+	border: none;
+
+
+}
+input[name=name],[name=email]{
+	padding-left: 10px;	
+}
+input[type=password]{
+	padding-left: 10px;	
+}
+.form input{
+	
+	
+	   border: 1px solid #000;
+        width: 13rem;
+    height: 2.5rem;
+   
+  
+    text-align: left;
+}
+.form ::placeholder{
+    color:#000 !important;
+}
+.ready_container{
+	 background-color: #19345F;
+	
+}
+#started{
+	text-align: center;
+	display: block;
+	background-color: #19345F;
+	margin: 0 auto;
+}
+#started:hover{
+	color: #ffffff;
+}
+.already,.forget{
+text-align: left;
+padding-left: 10px;
+font-weight: bold;
+font-size: 12px;
+}
+.signin_text{
+	padding-top: 6rem;
+	color: #fff;
+}
+.signup_logo{
+	width:35%;
+}
+@media all and (device-width: 768px) and (device-height:1024px) {
+	.form_contain{
+    
+
+min-width: 38rem;
+	
+}
+
+}
+@media all and (device-width: 1024px) and (device-height:1366px) {
+	.form_contain{
+    
+
+min-width: 38rem;
+	
+}}
+@media all and (device-width: 800px) and (device-height:1280px) {
+	.form_contain{
+    
+
+min-width: 38rem;
+	
+}
+}
+@media screen and (min-width:768px){
+.form_contain{
+    display: grid;
+    grid-auto-flow: column;	
+    grid-auto-columns: 40% auto;
+    position: relative;
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
+	top: 4rem;
+	border: 1px solid #000;
+	width:45%;
+
+}
+.missed{
+	font-weight: 800;
+}
+.signup_logo{
+	width:15%;
+}
+.input_Container{
+	line-height: 4;
+	width:80%;
+
+}
+.form input{
+	   border: 1px solid #000;
+        width: 20rem;
+    height: 2.5rem;
+}
+}

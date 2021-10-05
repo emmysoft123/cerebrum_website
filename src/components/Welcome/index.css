@@ -1,0 +1,401 @@
+*{
+  
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+
+
+}
+.main_body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+   
+} 
+
+.testimonial_container{
+ background-color: #19345F;
+ color: #ffffff;
+} 
+.testimonial{
+    margin-left: 15px;
+}
+.Testimonial_text_container{
+  margin-left: 15px;
+  padding-top: 60px;
+}
+.testimonial_img{
+    margin-left: 15px;
+        height:20rem;
+        margin-bottom: 40px;
+        margin-top: 30px;
+}
+
+.first_header{
+      margin-bottom: 30px;
+      background-image: url("https://res.cloudinary.com/cmp84378/image/upload/v1611146274/Image_Placeholder_4_3_qc5qb9.png");
+      background-size: cover;
+      height: 35rem;
+      background-position: center center;
+      background-repeat: no-repeat;
+      width: 100%;
+      color: #ffffff;
+      z-index: -10;
+      opacity: 0.8;
+      padding-top: 80px;
+      background-color: #19345F;
+
+         
+      
+}
+
+
+.first_header_items{
+   
+ padding-bottom:80px;
+}
+
+.suggested_test{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.imageButton{
+    outline: none;
+    background-color:  #19345F;
+    border: none;
+    color: #ffffff;
+    font-weight: 800;
+    
+    margin-top: 40px;
+
+}
+.image_card button{
+padding-top: -30px;     
+}
+.course,.instructor,.Features_text{
+    color: #ffffff;
+    text-align: center;
+}
+.suggested_container{
+    margin-left: 15px;
+}
+
+.Form input[type="text"]{
+    background:rgba(0,0,0,0);
+    
+    color:#ffffff!important;
+    border: 2px solid #ffffff;
+    outline: none;
+    width: 20rem;
+    height: 2.5rem;
+}
+.Form ::placeholder{
+    margin-left: 10px;
+    color:#ffffff!important;
+
+    
+}
+
+.form button{
+ 
+    background:#ffa500;
+    color: #ffffff;
+    
+}
+.first_header_items{
+    margin-left: 15px;
+}
+
+
+.first_header_text2{
+  margin-left: 15px;   
+}
+
+
+.video_card_container{
+    margin-top: 15px;
+}
+.three_steps_text{
+    padding-top: 40px;
+    
+}
+.signup{
+  font-weight: 800;
+    background-color: #FEEDC7;
+    min-height: 50%;
+    text-align: center;
+    padding-top: 30px;
+    color:  #19345F;
+    font-weight: 800;
+}
+.signup_button{
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+.contact_container{
+    background-color:  #19345F;
+    color: #ffffff;
+    font-weight: 600;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    font-weight: 800;
+}
+.contact_img{
+    max-width: 50vw;
+       padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    height: 40vh;
+}
+.contact_text{
+        padding-top: 25px;
+    
+}
+.quickstart_text{
+    text-align: center;
+    margin-top: 30px;
+  
+    font-size: 16px;
+}
+.guide_img{
+    max-width: 55vw;
+       padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20rem;
+    height: 35vh;
+}
+.quickstart_container{
+   background-color:#FBC446;
+    color: #ffffff;
+    font-weight: 800;
+
+}
+
+.Features{
+    position: relative;
+    background-color: #19345F;
+        background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      z-index: -10;
+      opacity: 0.8;
+      height: 30rem;
+      color: #ffffff;
+      font-weight: 900;
+      text-align: center;
+    background-image: url("https://res.cloudinary.com/cmp84378/image/upload/v1611159461/Image_Placeholder_4_3_1_xdwnl1.png");
+}
+.three_steps{
+     margin-left: 15px;
+}
+.video_container{
+    margin-bottom:15px;
+}
+.img1{
+position: relative;
+ height:20rem;
+ margin-left: 15px;
+
+}
+.img2{
+    position: absolute;
+    top: 8rem;
+    left: 10rem;
+    z-index: 2;
+     height:6rem;
+     width:3rem;
+     margin-left: 15px;
+}
+.img3{
+    position: absolute;
+    top: 5.5rem;
+    left: 5rem;
+    z-index: 2;
+     height:3rem;
+     width:1.5rem;
+     text-align: center;
+     margin-left: 20rem;
+
+}
+
+.imge{
+
+     height:20rem;
+ margin-left: 15px;
+ margin-top: 20px;
+}
+.Features button{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+
+}
+#but{
+  background-color:#FBC446;
+     color: #ffffff;
+   width:10rem;
+   font-weight: 800;
+   margin-left: 0.5rem;
+}
+#but3{
+     background-color:#FBC446;
+
+    height: 4rem;
+    color: #ffffff;
+    font-weight: 800;
+}
+#but1,#but2{
+    background-color: #19345F;
+     color: #ffffff;
+     margin-left: 15px;
+     font-weight: 800;
+}
+#but7{
+    background-color: #19345F;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    width:15rem;
+    font-weight: 800;
+    color: #ffffff;
+}
+#but6{
+    background-color:#FBC446;
+    width:10rem;
+    color: #ffffff;
+    font-weight: 800;
+}
+#but5{
+    background-color: #19345F;
+    width:10rem;
+    margin-left: 15px;
+    color: #ffffff;
+    font-weight: 800;
+ 
+}
+#but4{
+    background-color:#444444;
+    color: #ffffff;
+    margin-bottom: 40px;
+    font-weight: 800;
+}
+
+/* Footer starts here*/
+
+
+/* Footer starts here*/
+  @media screen and (min-width:768px){
+    #but5{
+    margin-left: 10rem;
+
+  
+ 
+}
+.quickstart_text{
+    text-align: center;
+    margin-top: 30px;
+  
+    font-size: 25px;
+}
+.img3{
+   
+     margin-left: 25rem;
+
+}
+.main_body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+   
+} 
+
+   }
+   /* Footer starts here*/
+  @media screen and (min-width:992px){
+ 
+.main_body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+   
+} 
+  
+ 
+}
+@media all and (device-width: 768px) and (device-height:1024px) {
+.img3{
+   
+    
+     display: block;
+     margin:0 auto;
+     left: 10rem; 
+     top: 10rem;
+}
+.quickstart_text{
+  display: block;
+    font-size: 25px;
+       margin-top: 8rem;
+}
+  #but5{
+    margin-left: 4rem;
+
+  
+ 
+}
+}
+@media all and (device-width: 1024px) and (device-height:1366px) {
+.img3{
+   
+    
+     display: block;
+     margin:0 auto;
+     left: 38rem; 
+     top: 10rem;
+}
+.quickstart_text{
+  display: block;
+    font-size: 25px;
+       margin-top: 8rem;
+}
+  #but5{
+    margin-left: 4rem;
+
+  
+ 
+}
+}
+ @media screen and (max-width:768px){
+  #but{
+    margin-top: 1.5rem;
+}
+.guide_img{
+    max-width: 55vw;
+       padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    height: 35vh;
+}
+.img3{
+    position: absolute;
+    margin-left: 4rem;
+    z-index: 2;
+     height:3rem;
+     width:1.5rem;
+     color: #000;
+}
+#but5{
+    background-color: #19345F;
+    width:8rem;
+    color: #ffffff;
+    font-weight: 800;
+}
+}
+
+
